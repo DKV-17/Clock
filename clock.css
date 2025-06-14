@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e1e2f;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #444;
+  color: white;
+}
